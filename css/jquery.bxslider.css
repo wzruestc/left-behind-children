@@ -33,9 +33,7 @@
 	-moz-box-shadow: 0 0 5px #ccc;
 	-webkit-box-shadow: 0 0 5px #ccc;
 	box-shadow: 0 0 5px #ccc;
-	border:  5px solid #fff;
-	left: -5px;
-	background: #fff;
+	background: #DEDEDE;
 	
 	/*fix other elements on the page moving (on Chrome)*/
 	-webkit-transform: translatez(0);
@@ -201,4 +199,7 @@
 	display: block;
 	font-size: .85em;
 	padding: 10px;
+}
+.slide h3{
+	text-align: center;
 }

@@ -1,0 +1,30 @@
+﻿Read.me
+
+1.文件管理
+	html
+		首页index.html
+			留守儿童stay-along-children.html
+				文章列表article-list.html
+					正文text.html
+			新闻动态news.html
+			文艺风采literature.html
+			小记者站reporter.html
+	css
+		整体样式框架pure.css
+		整体栅格系统grid-responsive.css
+				grid-responsive-old-ie.css（适应ie）
+		首页样式index-css.css
+		首页banner背景轮播bxstretcher.css
+		图片轮播jquery.bxslider.css
+		除首页外主题页面主要样式news-css.css
+		正文页面样式text-css.css
+	js
+		stickUp.js导航固定插件
+		jquery.bxslider.js图片轮播插件
+		bgstretcher.js背景轮播插件
+		jquery.js 版本1.10.2
+	material(不需要更改的图片)
+	img(需后台控制尺寸并更换的图片)
+	sculpture默认用户头像	
+		
+		

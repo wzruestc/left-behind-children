@@ -110,6 +110,9 @@ body {
  * Address `outline` inconsistency between Chrome and other browsers.
  */
 
+a{
+    text-decoration: none;
+}
 a:focus {
     outline: thin dotted;
 }
@@ -613,6 +616,10 @@ table {
 .pure-g {
     word-spacing: -0.43em;
 }
+.pure-g > p{
+    letter-spacing: 0em;
+    word-spacing: 0em;
+}
 
 .pure-u {
     display: inline-block;
@@ -630,9 +637,6 @@ this the same font stack that Normalize.css sets for the `body`.
 */
 .pure-g [class *= "pure-u"] {
     font-family: Microsoft Yahei,sans-serif;
-}
-.pure-u-1 h2{
-    border-bottom: 1px solid;
 }
 .pure-u-1,
 .pure-u-1-1,
