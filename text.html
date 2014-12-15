@@ -21,24 +21,24 @@
 	<div class="pure-g" style="background: #26B26A;">
 		<div class="pure-u-10-24">
 			<div class="inner-box">
-				<img src="./imgs/logo.png"><i class="fa fa-pencil-square fa-2x" style="color: #DEDEDE"></i>
+				<a href="./index.html"><img src="./material/logo.png"><i class="fa fa-pencil-square fa-2x" style="color: #DEDEDE"></i></a>
 			</div>
 		</div>
 		<div class="pure-u-10-24">
 			<div class="pure-menu pure-menu-open pure-menu-horizontal" id="horizontal-menu">
     			<ul id="std-menu-items">
-	        			<li class=".menuItem"><a href="#stay-along-children">留守儿童</a></li>
-	        			<li class=".menuItem"><a href="#news">新闻动态</a></li>
-	        			<li class=".menuItem"><a href="#literature">文艺风采</a></li>
-	        			<li class=".menuItem"><a href="#reporter">小记者站</a></li>
+	        			<li class=".menuItem"><a href="./left-behind.html">留守儿童</a></li>
+	        			<li class=".menuItem"><a href="./news.html">新闻动态</a></li>
+	        			<li class=".menuItem"><a href="./literature.html">文艺风采</a></li>
+	        			<li class=".menuItem"><a href="./reporter.html">小记者站</a></li>
     			</ul>
 			</div>
 		</div>
-		<div class="pure-u-4-24">
+		<!-- <div class="pure-u-4-24">
 			<div class="innner-box">
 				<a href="" class="pure-button pure-button-primary" id="modaltrigger">登录</a>
 			</div>
-		</div>
+		</div>v2.0 -->
 	</div>
 	<div>
 		<div class="pure-g">
@@ -119,11 +119,11 @@
 				<h3>欢迎关注广元日报</h3>
 				<span>
 					<a><i class="fa fa-weibo fa-3x fa-two-dimension-code"></i></a>
-					<img src="./imgs/sinaweibo.jpg" id="two-dimension-code-weibo">
+					<img src="./material/sinaweibo.jpg" id="two-dimension-code-weibo">
 				</span>
 				<span>
 					<a><i class="fa fa-weixin fa-3x fa-two-dimension-code"></i></a>
-					<img src="./imgs/wechat.jpg" id="two-dimension-code-wechat">
+					<img src="./material/wechat.jpg" id="two-dimension-code-wechat">
 				</span>
 			</div>
 		</div>
@@ -162,6 +162,18 @@ jQuery(function($) {
         });;
     });
 });
+</script>
+<script type="text/javascript" src="./js/jquery.goup.min.js"></script>
+<script type="text/javascript">
+        	$(document).ready(function () {
+	            $.goup({
+	                trigger: 50,
+	                bottomOffset: 50,
+	                locationOffset: 100,
+	                title: '返回顶部',
+	                titleAsText: true
+	            });
+        });
 </script>
 <script>
 window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];

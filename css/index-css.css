@@ -1,4 +1,4 @@
-.inner-box>img{
+.inner-box img{
 	margin-left: 10em;
 }
 #modaltrigger{
@@ -42,7 +42,7 @@
 	color: #26B26A;
 }
 .primary-button:hover{
-	background: #26B26A;
+	background: #54BE62;
 	color: #ffffff;
 }
 .school-message-list{

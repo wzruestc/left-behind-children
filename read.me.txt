@@ -23,8 +23,11 @@
 		jquery.bxslider.js图片轮播插件
 		bgstretcher.js背景轮播插件
 		jquery.js 版本1.10.2
+		jquery.goup.min.js回顶部
 	material(不需要更改的图片)
 	img(需后台控制尺寸并更换的图片)
-	sculpture默认用户头像	
+	article-imgs 文章内的图片
+	sculpture默认用户头像
+        文章名不超过16个汉字，段落介绍不超过100字
 		
 		
